@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            height: 100vh; /* 100% of the viewport height */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+        #card1 {
+            background-color: #1DB954; /* Green */
+        }
+
+        #card2 {
+            background-color: #FFD700; /* Yellow */
+        }
+
+        #card3 {
+            background-color: #FF6347; /* Red */
+        }
+    </style>
+    <title>Spotify Team Health Check Prompts</title>
+</head>
+<body>
+    <div id="card1" class="card">
+        <p><strong>Area:</strong> Easy to release</p>
+        <p><strong>Example of Awesome:</strong> Releasing is simple, safe, painless & mostly automated.</p>
+        <p><strong>Example of Crappy:</strong> Releasing is risky, painful, lots of manual work, and takes forever.</p>
+    </div>
+
+    <div id="card2" class="card">
+        <p><strong>Area:</strong> Suitable process</p>
+        <p><strong>Example of Awesome:</strong> Our way of working fits us perfectly.</p>
+        <p><strong>Example of Crappy:</strong> Our way of working sucks.</p>
+    </div>
+
+    <div id="card3" class="card">
+        <p><strong>Area:</strong> Tech quality (code base health)</p>
+        <p><strong>Example of Awesome:</strong> We’re proud of the quality of our code! It is clean, easy to read, and has great test coverage.</p>
+        <p><strong>Example of Crappy:</strong> Our code is a pile of dung, and technical debt is raging out of control.</p>
+    </div>
+
+    <div id="card4" class="card" style="background-color: #8A2BE2;">
+        <p><strong>Area:</strong> Value</p>
+        <p><strong>Example of Awesome:</strong> We deliver great stuff! We’re proud of it and our stakeholders are really happy.</p>
+        <p><strong>Example of Crappy:</strong> We deliver crap. We feel ashamed to deliver it. Our stakeholders hate us.</p>
+    </div>
+
+    <div id="card5" class="card" style="background-color: #4169E1;">
+        <p><strong>Area:</strong> Speed</p>
+        <p><strong>Example of Awesome:</strong> We get stuff done really quickly. No waiting, no delays.</p>
+        <p><strong>Example of Crappy:</strong> We never seem to get done with anything. We keep getting stuck or interrupted. Stories keep getting stuck on dependencies.</p>
+    </div>
+
+    <div id="card6" class="card" style="background-color: #FF8C00;">
+        <p><strong>Area:</strong> Mission</p>
+        <p><strong>Example of Awesome:</strong> We know exactly why we are here, and we are really excited about it.</p>
+        <p><strong>Example of Crappy:</strong> We have no idea why we are here, there is no high-level picture or focus. Our so-called mission is completely unclear and uninspiring.</p>
+    </div>
+
+    <div id="card7" class="card" style="background-color: #008080;">
+        <p><strong>Area:</strong> Fun</p>
+        <p><strong>Example of Awesome:</strong> We love going to work, and have great fun working together.</p>
+        <p><strong>Example of Crappy:</strong> Boooooooring.</p>
+    </div>
+
+    <div id="card8" class="card" style="background-color: #32CD32;">
+        <p><strong>Area:</strong> Learning</p>
+        <p><strong>Example of Awesome:</strong> We’re learning lots of interesting stuff all the time!</p>
+        <p><strong>Example of Crappy:</strong> We never have time to learn anything.</p>
+    </div>
+
+    <div id="card9" class="card" style="background-color: #FF1493;">
+        <p><strong>Area:</strong> Support</p>
+        <p><strong>Example of Awesome:</strong> We always get great support & help when we ask for it!</p>
+        <p><strong>Example of Crappy:</strong> We keep getting stuck because we can’t get the support & help that we ask for.</p>
+    </div>
+
+    <div id="card10" class="card" style="background-color: #4B0082;">
+        <p><strong>Area:</strong> Pawns or players</p>
+        <p><strong>Example of Awesome:</strong> We are in control of our destiny! We decide what to build and how to build it.</p>
+        <p><strong>Example of Crappy:</strong> We are just pawns in a game of chess, with no influence over what we build or how we build it.</p>
+    </div>
+</body>
+</html>
